@@ -55,10 +55,25 @@ The two main-guide arms are symmetrical with respect to the auxiliary arm. If po
 
 ## Observation
 
-*(Include your own table relevant to the experiment.)*
+<img width="1088" height="147" alt="image" src="https://github.com/user-attachments/assets/6bab6aab-f05b-4a53-8645-5282eddc3f17" />
 
+<img width="1072" height="122" alt="image" src="https://github.com/user-attachments/assets/7dc55d08-66ab-4b55-9096-1265d0413f34" />
 
----
+## FORMULA
+1. Power division ratio (Port 3 → Port 1, Port 2) = Pin – Pout = 10 log10 (Pin / Pout) dB (ideally ≈ 3 dB at each arm, 180° out of phase)
+2. Isolation between collinear arms = 10 log10 (P1 / P2) dB
+
+## MODEL GRAPH AND ACTUAL GRAPH
+
+<img width="1112" height="413" alt="image" src="https://github.com/user-attachments/assets/498b4db0-be15-4d06-84e6-ef1c9586edb3" />
+
+## CALCULATION
+
+1. Power at Port 1 (from Port 3) = 0.0 – (–3.5) = 3.5 dB down.
+2.  Power at Port 2 (from Port 3) = 0.0 – (–3.4) = 3.4 dB down.
+3.   Both arms are within 0.1 dB of each other and close to the ideal 3 dB point, confirming an equal power split; the 180° phase reversal between the two outputs (a property of the series junction) is confirmed separately using a phase–shifter/slotted–line comparison.
+4. Isolation (Port 1 → Port 2, with Port 3 matched) = 0.0 – (–24.0) = 24.0 dB.
+
 
 ## Precautions
 
@@ -70,4 +85,4 @@ The two main-guide arms are symmetrical with respect to the auxiliary arm. If po
 
 ## Result
 
-The characteristics of the E-plane tee were studied.
+The power–division ratio between the collinear arms of the given E–plane tee was found to be 3.5 dB and 3.4 dB (nearly equal), and the isolation between the collinear arms was found to be 24.0 dB. The equal power split with a 180° phase reversal, characteristic of a series (E–plane) junction, was verified.
